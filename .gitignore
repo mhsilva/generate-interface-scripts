@@ -10,3 +10,4 @@ Executor.class
 InterfaceDetailPojo.class
 InterfaceHeaderPojo.class
 SqlConstants.class
+/target/
