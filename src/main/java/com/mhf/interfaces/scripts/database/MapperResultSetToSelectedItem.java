@@ -15,16 +15,6 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-/**
- * <p>
- * Select records from database based in select from POJO.
- * This class map automatic attibutes x fiedls from database
- * @see SelectedItem
- *      </p>
- *
- * @author <a href="mailto:fernando.pedrazzanni@thomsonreuters.com">Fernando Santiago</a>
- *
- */
 public final class MapperResultSetToSelectedItem {
 
     /**
