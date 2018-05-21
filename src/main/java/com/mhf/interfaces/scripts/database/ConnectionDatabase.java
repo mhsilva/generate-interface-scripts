@@ -13,8 +13,8 @@ public class ConnectionDatabase {
         try {
             String dbURL = "jdbc:oracle:thin:@URL:1521/SERVICE_NAME";
             Properties properties = new Properties();
-            properties.put("user", "OGT_FTA_MX_AB");
-            properties.put("password", "OGT_FTA_MX_AB");
+            properties.put("user", "USER");
+            properties.put("password", "PASS");
             // properties.put("defaultRowPrefetch", "20");
             conn = DriverManager.getConnection(dbURL, properties);
         } catch (Exception e) {
