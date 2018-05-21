@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConnectionDatabase {
 
-    public static Connection getConn() throws SQLException {
+    public static Connection getConn() throws SQLException { 
 
         Connection conn = null;
         try {
