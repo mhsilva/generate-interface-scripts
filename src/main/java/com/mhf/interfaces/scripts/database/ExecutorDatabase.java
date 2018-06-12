@@ -82,8 +82,8 @@ public class ExecutorDatabase {
             }
             sb.append("END;\n");
             Path file = Paths.get(outputPath);
-            Files.write(file, sb.toString().replaceAll("''", "NULL").getBytes());
 
+            Files.write(file, sb.toString().replaceAll("''", "NULL").getBytes("utf-8"));
         } finally {
             conn.close();
         }
